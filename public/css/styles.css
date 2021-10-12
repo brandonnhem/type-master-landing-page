@@ -1,0 +1,21 @@
+:root {
+    --button-color: hsl(22, 89%, 52%);
+    --button-color-active: hsl(22, 100%, 69%);
+    --heading-font-color: hsl(220, 50%, 17%);
+    --paragraph-font-color: hsl(221, 23%, 58%);
+    --special-container-color: hsl(198, 28%, 93%);
+    --bg-color: hsl(0, 0%, 100%);
+}
+
+h1, h2, h3 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    color: var(--heading-font-color);
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    color: var(--paragraph-font-color);
+    background-color: var(--bg-color);
+}
