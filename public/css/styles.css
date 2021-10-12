@@ -20,6 +20,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin: 0;
 }
 
 h3 {
@@ -50,12 +51,37 @@ nav {
     border-radius: 1.25rem;
 }
 
+#phone-keyboard {
+    width: 129px;
+    height: 193px;
+    border-radius: 1.25rem;
+}
+
+#glass-keyboard {
+    width: 220px;
+    height: 193px;
+    border-radius: 1.25rem;
+    margin-left: 1.5rem;
+}
+
 .cta {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-weight: 700;
     margin: 2rem 0 4rem;
+}
+
+.header-img-wrapper {
+    position: relative;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 129px;
+    height: 193px;
+    margin-top: 1.5rem;
 }
 
 .button {
@@ -77,4 +103,21 @@ nav {
 .button-2 {
     background-color: var(--special-container-color);
     color: var(--heading-font-color);
+}
+
+.about {
+    text-align: center;
+    overflow: hidden;
+}
+
+.about-h2 {
+    line-height: 2.25rem;
+    width: 255px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 4.6875rem;
+    line-height: 2.25rem;
 }
