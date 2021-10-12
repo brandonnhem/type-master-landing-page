@@ -143,3 +143,11 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+span {
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+}
