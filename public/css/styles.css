@@ -13,9 +13,68 @@ h1, h2, h3 {
     color: var(--heading-font-color);
 }
 
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.625rem;
+}
+
 body {
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
     color: var(--paragraph-font-color);
     background-color: var(--bg-color);
+    margin: 1.5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-keyboard {
+    width: 372px;
+    height: 331px;
+    border-radius: 1.25rem;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    margin: 2rem 0 4rem;
+}
+
+.button {
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-1 {
+    background-color: var(--button-color);
+    color: var(--bg-color);
+    margin-right: 2rem;
+}
+
+.button-2 {
+    background-color: var(--special-container-color);
+    color: var(--heading-font-color);
 }
