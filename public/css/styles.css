@@ -46,6 +46,12 @@ nav {
     justify-content: space-between;
 }
 
+.keyboard {
+    width: 352px;
+    height: 331px;
+    overflow: hidden;
+}
+
 #main-keyboard {
     width: 372px;
     height: 331px;
@@ -55,6 +61,14 @@ nav {
 #phone-keyboard {
     width: 129px;
     height: 193px;
+    mix-blend-mode: multiply;
+    border-radius: 1.25rem;
+    opacity: 0.75;
+}
+
+.image-holder {
+    background-color: #F16718;
+    width: min-content;
     border-radius: 1.25rem;
 }
 
@@ -80,9 +94,8 @@ nav {
 .img-wrapper {
     display: flex;
     flex-direction: row;
-    width: 129px;
-    height: 193px;
-    margin-top: 1.5rem;
+    float: right;
+    margin: 1.5rem 0 4.6875rem;
 }
 
 .button {
