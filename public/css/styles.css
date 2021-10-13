@@ -174,3 +174,85 @@ span {
 footer {
     text-align: center;
 }
+
+@media only screen and (min-width: 768px) {
+    body{
+        margin: 2.5rem;
+    }
+
+    header {
+        display: flex;
+        margin-top: 62px;
+    }
+
+    .header-blurb {
+        display: flex;
+        flex-direction: column;
+        width: 339px;
+    }
+
+    .keyboard {
+        width: 281px;
+        height: 425px;
+        position: absolute;
+        z-index: 2;
+        left: 27.9375rem;
+    }
+
+    #main-keyboard {
+        width: 478px;
+        height: 425px;
+    }
+
+    .img-wrapper {
+        margin-top: 2.5rem;
+        left: 0;
+    }
+
+    #phone-keyboard {
+        width: 214px;
+        height: 320px;
+    }
+
+    #glass-keyboard {
+        width: 445px;
+        height: 320px;
+    }
+
+    .about-blurb {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        align-items: baseline;
+        margin-top: 27.75rem;
+        margin-left: -3rem;
+    }
+
+    .about-h2 {
+        margin: 0 2.25rem 0 3rem;
+    }
+
+    .features {
+        text-align: left;
+        margin: 8.875rem 0;
+    }
+
+    .feature {
+        align-items: flex-start;
+        margin-right: 4.3125rem;
+        margin-top: 4.5rem;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .feature-h3 {
+        margin: 40px 0 24px;
+    }
+
+    .features p {
+        width: 281px;
+    }
+}
