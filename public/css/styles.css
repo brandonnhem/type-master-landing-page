@@ -257,6 +257,41 @@ footer {
     }
 }
 
+@media only screen and (min-width: 1024px) {
+    .keyboard {
+        width: 451px;
+        left: 33.9375rem;
+    }
+
+    #main-keyboard {
+        width: 472px;
+    }
+
+    .about-blurb {
+        flex-direction: row;
+        margin-top: 33.75rem;
+        align-items: center;
+    }
+
+    #phone-keyboard {
+        width: 255px;
+        height: 440px;
+    }
+    
+    #glass-keyboard {
+        width: 445px;
+        height: 440px;
+    }
+
+    .features {
+        margin-top: 3.875rem;
+    }
+
+    .feature {
+        margin-right: 8rem;
+    }
+}
+
 @media only screen and (min-width: 1440px) {
     body {
         margin: 3.4375rem 10.3125rem;
@@ -299,7 +334,7 @@ footer {
         height: 240px;
         background-color: var(--special-container-color);
         border-radius: 20px;
-        left: 71rem;
+        left: 77rem;
         position: absolute;
     }
 
