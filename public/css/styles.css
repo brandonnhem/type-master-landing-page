@@ -258,6 +258,19 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
+    .button-1, .button-2 {
+        cursor: pointer;
+    }
+
+    .button-1:hover {
+        background-color: var(--button-color-active);
+    }
+
+    .button-2:hover {
+        color:hsl(0, 0%, 100%);
+        background-color: var(--heading-font-color);
+    }
+
     .keyboard {
         width: 451px;
         left: 33.9375rem;
